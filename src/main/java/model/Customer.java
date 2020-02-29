@@ -6,4 +6,7 @@ public class Customer {
     public Customer(String fullName) {
         this.fullName = fullName;
     }
+    public void update(){
+
+    }
 }

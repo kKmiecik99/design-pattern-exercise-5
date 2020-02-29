@@ -143,8 +143,10 @@ this.id=counter++;
             auction.item=item;
             auction.seller=seller;
             return auction;
-
         }
+    }
+    public static AuctionBuilder builder(){
+        return new AuctionBuilder();
     }
 }
 

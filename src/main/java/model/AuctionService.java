@@ -19,6 +19,7 @@ public class AuctionService {
         if (auction.getHighestBid()<amount) {
             auction.setHighestBid(amount);
             auction.setBuyer(buyer);
+            for
             return true;
         }
         return false;
